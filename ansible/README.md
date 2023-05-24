@@ -1,4 +1,4 @@
-## Configure Ansible on an Azure VM
+## Configure Ansible on the Azure VM
 
 
 ### Connect to your virtual machine via SSH
