@@ -1,6 +1,6 @@
 # DevOps Task
 
-As a DevOps engineer, heres a task to set IT infrastructure on the AWS cloud using Terraform, Jenkins, and Ansible. The infrastructure includes 4 web servers and 2 databases. The specific tasks include:
+As a DevOps engineer, heres a task to set IT infrastructure on the AWS cloud using Terraform, Jenkins, and Ansible. 
 
 ## Tasks:
 
