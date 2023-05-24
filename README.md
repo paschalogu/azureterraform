@@ -18,12 +18,12 @@ mkdir devtechproj
 cd devtechproj
 ```
 
-1.) Terraform Script that provisions the servers on Azure (repository)
+1.) Terraform Script that provisions the servers on Azure Cloud
 
-2.) Git & GitHub for Version Control (repository)
+2.) Git & GitHub for Version Control 
 
-3.) Jenkins Pipeline GitHub, Terraform, Azure (repository)
+3.) Jenkins Pipeline GitHub, Terraform, Azure 
 
-4.) Using Ansible to configure the webserver (repository)
+4.) Use Ansible to configure the webserver hosted on Azure Cloud
 
 

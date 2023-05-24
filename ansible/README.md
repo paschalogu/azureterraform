@@ -1,8 +1,7 @@
-### Installing Ansible
+## Configure Ansible on an Azure VM
 
-Install ansible on your local environment. Refer to the documentation for system-specific requirements: https://docs.ansible.com/ansible/latest/installation_guide/index.html.
 
-## Connect to your virtual machine via SSH
+### Connect to your virtual machine via SSH
 
 Log into the VM with SSH
 
@@ -10,7 +9,10 @@ Log into the VM with SSH
 ssh adminuser@ip_address
 ```
 
-## Install Ansible on the virtual machine
+### Install Ansible on the virtual machine
+
+Install ansible on your local environment. Refer to the documentation for system-specific requirements: https://docs.ansible.com/ansible/latest/installation_guide/index.html.
+
 
 create a bash file 
 
@@ -18,12 +20,7 @@ create a bash file
 nano installation.sh
 ```
 
-To run this installation script, run the command below
-```
-./installation.sh
-```
-
-Copy the code below into the file
+Copy the code below into the file `installation.sh`
 
 ```bash
 #!/bin/bash
@@ -39,20 +36,23 @@ pip install boto3 botocore
 pip install boto
 ```
 
-Run the code in change file permission and install the above
+
+Run the code in change file permission and install the above requirements
 
 ```bash
 chmod +x ./installation.sh
+
 ./installation.sh
 ```
 
-## Test Ansible installation
+### Test Ansible installation
+We can test is ansible is properly configured by runnung the command below: This shouls pront the version of ansible installed.
 
 ```bash
 ansible --version
 ```
 
-## Create Azure credentials
+### Create Azure credentials
 
 
 1. Create Ansible credentials file. Once you've successfully connected to the host virtual machine and installed the Ansible, create and open a file named `credentials`
@@ -71,7 +71,7 @@ secret=<service_principal_password>
 tenant=<service_principal_tenant_id>
 ```
 
-Write and run an Ansible playbook
+Write and run an Ansible playbook to provision and serve the webserver
 
 ```bash
 ---
