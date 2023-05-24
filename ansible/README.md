@@ -31,6 +31,8 @@ sudo apt install ansible
 
 sudo apt install python3-pip
 
+sudo apt install python-apt
+
 pip install boto3 botocore
 
 pip install boto
@@ -38,6 +40,7 @@ pip install boto
 sudo apt update
 
 sudo apt upgrade
+
 ```
 
 
