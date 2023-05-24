@@ -63,7 +63,7 @@ ansible --version
 
 ```bash
 mkdir ~/.azure
-vi ~/.azure/credentials
+nano ~/.azure/credentials
 ```
 2. Insert the following lines into the file. Replace the placeholders with the service principal values.
 
