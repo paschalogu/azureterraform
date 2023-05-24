@@ -1,0 +1,3 @@
+[submodule "ansiblerepo"]
+	path = ansiblerepo
+	url = https://github.com/paschalogu/devtechproj.git
