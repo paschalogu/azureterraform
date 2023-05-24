@@ -1,13 +1,18 @@
 ---
-- name: stopping and uninstalling nginx
+- name: installing and starting nginx
   hosts: localhost
   become: yes
   
   tasks: 
+    - name: installing ngix
+      apt: 
+        name: nginx 
+        state: present
+    
     - name: stop nginx
       service: 
         name: nginx
         state: started
-
+        
 #ansible-playbook ansible-playbook.yml --ask-become-pass --check
 
