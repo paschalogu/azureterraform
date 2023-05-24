@@ -1,6 +1,6 @@
-# DevOps Task
+# DevOps Blank Project
 
-As a DevOps engineer, heres a task to set IT infrastructure on the AWS cloud using Terraform, Jenkins, and Ansible. 
+As a DevOps engineer, here's a task to set IT infrastructure on the Azure cloud using Terraform, Jenkins, and Ansible. 
 
 ## Tasks:
 
@@ -22,9 +22,8 @@ cd devtechproj
 
 2.) Git & GitHub for Version Control
 
-3.) Jenkins Pipeline GitHub, Terraform, AWS 
+3.) Jenkins Pipeline GitHub, Terraform, Azure
 
 4.) Using Ansible to configure the webservers
 
-5.) Presentation on Continuous Integration and Deployment
 
