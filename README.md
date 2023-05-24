@@ -4,14 +4,14 @@ As a DevOps engineer, here's a task to set IT infrastructure on the Azure cloud 
 
 ## Tasks:
 
-1. Write a Terraform Script that provisions the servers and databases in a highly available environment.
+1. Terraform Script to provision the webserver in a highly available environment (Azure cloud)
 2. Push the Terraform script to GitHub for version control.
-3. Create a Jenkins job that automatically detects changes in the terraform script on GitHub and deploys the changes.
-4. Using Ansible, configure the webservers and database.
+3. Jenkins job that automatically detects changes in the terraform script on GitHub and deploys the changes.
+4. Using Ansible, configure the webserver on local.
 
 # The solution to the Task
 
-Let’s make a directory to house all our projects and then change directory to this repository
+Make a directory to house all our projects and then subdirectory for each requirement
 
 ```bash
 mkdir devtechproj
