@@ -31,8 +31,7 @@ nano main.tf
 
 ```
 
-
-Run `Terraform init` to initialize the repository.
+Run `Terraform init` to initialize the repository
 
 ```bash
 terraform init
