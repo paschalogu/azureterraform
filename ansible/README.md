@@ -34,6 +34,10 @@ sudo apt install python3-pip
 pip install boto3 botocore
 
 pip install boto
+
+sudo apt update
+
+sudo apt upgrade
 ```
 
 
