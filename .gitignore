@@ -2,6 +2,7 @@
 ./
 ../
 .git/
+.gitmodules
 *.log
 
 # Compiled Terraform configuration files
