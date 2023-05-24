@@ -10,8 +10,6 @@ Navigate to your profile icon at the top right of the page and click “your rep
 
 Give your repo a name, Leave the defaults and click Create
 
-![github create.png](/github_create.png)
-
 ### Install Git on your Device
 
 Reference this git documentation to install your machine specific version: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -35,7 +33,7 @@ git config --global user.email "[you@example.com](mailto:you@example.com)"
 git config --global [user.name](http://user.name/) "Your Name"
 ```
 
-### >> Create a file and commit the changes to the newly created GitHub repository
+### Create a file and commit the changes to the newly created GitHub repository
 
 ```bash
 touch text.txt
@@ -52,7 +50,6 @@ We will likely get an error:
 💡 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see [https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls) for information on currently recommended modes of authentication.
 fatal: Authentication failed for '[https://github.com/paschalogu/devtechproj.git/](https://github.com/paschalogu/devtechproj.git/)'
-
 </aside>
 
 This is because the command line is not authenticated to push to the GitHub repository. To resolve this, we need to authenticate our device using Personal Access Token (PAT) to push to our repository.
