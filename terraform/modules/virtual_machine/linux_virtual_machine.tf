@@ -83,7 +83,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   location                        = "eastus"
   size                            = "Standard_D2s_v3"
   admin_username                  = "adminuser"
-  admin_password                  = "T#trial@@pexact2"
+  admin_password                  = var.admin_password
   disable_password_authentication = false
   network_interface_ids = [
     azurerm_network_interface.main.id,
