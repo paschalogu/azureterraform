@@ -31,12 +31,12 @@ ii. Install the SSL/TLS certificate on the VM to enable secure HTTPS communicati
 As a DevOps engineer, here's a task to setup Azure Cloud VM infrastructure using Terraform, Jenkins, and Ansible that will server the company payment product. The VM should have a public IP address and and available on port 80.
 
 #### Details of the VM
-location               = "eastus"  
-Machine size           = "Standard_D2s_v3"  
-VM publisher           = "Canonical"  
-VM offe                = "UbuntuServer"  
-VM sku                 = "20.04-LTS"  
-VM version             = "latest"  
+location               = "eastus"
+Machine size           = "Standard_D2s_v3"
+VM publisher           = "Canonical"
+VM offe                = "UbuntuServer"
+VM sku                 = "20.04-LTS"
+VM version             = "latest"
 
 ## Task steps:
 a.) Terraform Script Development:  
