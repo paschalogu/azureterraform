@@ -1,8 +1,8 @@
 # DevOps Blank Projects
 
 
-#### Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
-#### Project Two: Infrastructure as Code
+### Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
+### Project Two: Infrastructure as Code
 
 ## Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
 
