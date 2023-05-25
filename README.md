@@ -1,10 +1,11 @@
 # DevOps Blank Projects
 
 
-## Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
-## Project Two: Infrastructure as Code
+#### Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
+#### Project Two: Infrastructure as Code
 
 ## Project One: Deployment of Microsoft Cloud and Azure Product Line on VM
+
 
 #### Objective:
 As a DevOps engineer, the objective is to prepare a virtual machine (VM) that enables the company to launch and scale their new line of business, focused on selling Microsoft Cloud and Azure-related products. The VM should be accessible to the global market and configured to only allow traffic on ports 80 and 443. Additionally, it should be deployed on the sub-domain azure.paschalogu.com.
